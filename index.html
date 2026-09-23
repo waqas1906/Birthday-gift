@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         CONFETTI CANVAS
+    ====================================== -->
+
+    <canvas id="confetti"></canvas>
+
+
+    <!-- =====================================
+         NAVIGATION
+    ====================================== -->
+
+    <nav>
+
+        <div class="logo">
+            🎂 Birthday
+        </div>
+
+
+        <div class="nav-links">
+
+            <button onclick="showPage('home')">
+                Home
+            </button>
+
+            <button onclick="showPage('message')">
+                Message
+            </button>
+
+            <button onclick="showPage('advice')">
+                Advice 🤍
+            </button>
+
+            <button onclick="showPage('memories')">
+                Memories
+            </button>
+
+            <button onclick="showPage('special')">
+                Special
+            </button>
+
+            <button onclick="showPage('surprise')">
+                Surprise
+            </button>
+
+            <button onclick="showPage('finale')">
+                Finale
+            </button>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================
+         PAGE 1 — HOME
+    ====================================== -->
+
+    <section id="home" class="page active-page">
+
+        <div class="hero-content">
+
+            <div class="big-emoji">
+                🎉
+            </div>
+
+
+            <p class="small-title">
+                TODAY IS A SPECIAL DAY
+            </p>
+
+
+            <h1>
+                Happy Birthday!
+            </h1>
+
+
+            <h2>
+                Dear <span>Friend</span> ❤️
+            </h2>
+
+
+            <p class="main-text">
+
+                Today isn't just another day...
+
+                It's the day a wonderful person
+                came into this world. ✨
+
+            </p>
+
+
+            <div class="cake">
+                🎂
+            </div>
+
+
+            <button class="main-btn" onclick="showPage('message')">
+
+                Open Your Birthday Surprise →
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 2 — MESSAGE
+    ====================================== -->
+
+    <section id="message" class="page">
+
+        <div class="card">
+
+            <div class="page-icon">
+                💌
+            </div>
+
+
+            <p class="small-title">
+                A MESSAGE FOR YOU
+            </p>
+
+
+            <h1>
+                Something I Want You To Know
+            </h1>
+
+
+            <div class="message-text">
+
+                <p>
+
+                    Happy Birthday to someone who makes
+                    the world a little brighter just by
+                    being in it. ❤️
+
+                </p>
+
+
+                <p>
+
+                    I hope your birthday is filled with
+                    beautiful moments, genuine smiles,
+                    unforgettable memories, and people
+                    who truly care about you.
+
+                </p>
+
+
+                <p>
+
+                    May this new chapter of your life
+                    bring you closer to your dreams and
+                    give you countless reasons to smile.
+
+                </p>
+
+
+                <p>
+
+                    Never forget how special you are.
+
+                    Keep smiling, keep dreaming, and keep
+                    being the amazing person you are. ✨
+
+                </p>
+
+
+                <p class="signature">
+
+                    With lots of love ❤️
+
+                </p>
+
+            </div>
+
+
+            <div class="navigation-buttons">
+
+                <button class="secondary-btn" onclick="showPage('home')">
+
+                    ← Previous
+
+                </button>
+
+
+                <button class="main-btn" onclick="showPage('memories')">
+
+                    Next →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+     PAGE 3 — MUSLIM ADVICE
+    ====================================== -->
+
+    <section id="advice" class="page">
+
+        <div class="card advice-card">
+
+            <div class="page-icon">
+                🤍
+            </div>
+
+            <p class="small-title">
+                A FEW WORDS FROM MY HEART
+            </p>
+
+            <h1>
+                My Advice as a Muslim
+            </h1>
+
+            <div class="advice-text">
+
+                <p>
+                    Since it's your birthday, I just want to give
+                    you a few pieces of advice from my heart. ❤️
+                </p>
+
+                <p>
+                    Always try to pray five times a day and never
+                    let Salah become something you leave behind
+                    when life gets busy. Keep yourself close to
+                    Allah, make dua often, and try to read the
+                    Quran regularly, even if it's only a few
+                    verses a day.
+                </p>
+
+                <p>
+                    Choose good people around you, respect your
+                    parents, protect your peace and your heart,
+                    and always be kind to others. When life gets
+                    difficult, have Sabr and trust Allah's plan.
+                </p>
+
+                <p>
+                    And most importantly, keep working on yourself,
+                    your education, your dreams, and your
+                    relationship with Allah.
+                </p>
+
+                <div class="dua-box">
+
+                    <p>
+                        May Allah give you a beautiful, peaceful,
+                        successful, and blessed life.
+                    </p>
+
+                    <strong>
+                        Ameen. 🤍
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="navigation-buttons">
+
+                <button class="secondary-btn" onclick="showPage('message')">
+
+                    ← Previous
+
+                </button>
+
+
+                <button class="main-btn" onclick="showPage('memories')">
+
+                    Next →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+         PAGE 3 — MEMORIES
+    ====================================== -->
+
+    <section id="memories" class="page">
+
+        <div class="card wide">
+
+            <div class="page-icon">
+                📸
+            </div>
+
+
+            <p class="small-title">
+                BEAUTIFUL MOMENTS
+            </p>
+
+
+            <h1>
+                Some Special Memories
+            </h1>
+
+
+            <p class="subtitle">
+
+                Every beautiful moment deserves
+                to be remembered. ❤️
+
+            </p>
+
+
+            <div class="gallery">
+
+
+                <div class="photo">
+
+                    <div>
+                        📷
+                    </div>
+
+                    <span>
+                        Beautiful Moment
+                    </span>
+
+                </div>
+
+
+                <div class="photo">
+
+                    <div>
+                        🌸
+                    </div>
+
+                    <span>
+                        Happy Memories
+                    </span>
+
+                </div>
+
+
+                <div class="photo">
+
+                    <div>
+                        ✨
+                    </div>
+
+                    <span>
+                        Special Day
+                    </span>
+
+                </div>
+
+
+                <div class="photo">
+
+                    <div>
+                        ❤️
+                    </div>
+
+                    <span>
+                        Best Moments
+                    </span>
+
+                </div>
+
+
+                <div class="photo">
+
+                    <div>
+                        🌅
+                    </div>
+
+                    <span>
+                        Unforgettable
+                    </span>
+
+                </div>
+
+
+                <div class="photo">
+
+                    <div>
+                        🥰
+                    </div>
+
+                    <span>
+                        Always Smile
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="navigation-buttons">
+
+                <button class="secondary-btn" onclick="showPage('message')">
+
+                    ← Previous
+
+                </button>
+
+
+                <button class="main-btn" onclick="showPage('special')">
+
+                    Next →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 4 — SPECIAL
+    ====================================== -->
+
+    <section id="special" class="page">
+
+        <div class="card wide">
+
+            <div class="page-icon">
+                ❤️
+            </div>
+
+
+            <p class="small-title">
+                WHY YOU ARE SPECIAL
+            </p>
+
+
+            <h1>
+                You Deserve All The Happiness
+            </h1>
+
+
+            <div class="special-grid">
+
+
+                <div class="special-card">
+
+                    <div>
+                        😊
+                    </div>
+
+                    <h3>
+                        Your Smile
+                    </h3>
+
+                    <p>
+
+                        Your smile has a way of making
+                        ordinary moments feel special.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="special-card">
+
+                    <div>
+                        ✨
+                    </div>
+
+                    <h3>
+                        Your Energy
+                    </h3>
+
+                    <p>
+
+                        You bring positive energy
+                        wherever you go.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="special-card">
+
+                    <div>
+                        💖
+                    </div>
+
+                    <h3>
+                        Your Heart
+                    </h3>
+
+                    <p>
+
+                        Your kindness and caring nature
+                        make you truly special.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="special-card">
+
+                    <div>
+                        🌟
+                    </div>
+
+                    <h3>
+                        Your Dreams
+                    </h3>
+
+                    <p>
+
+                        May you always have the courage
+                        to chase every dream in your heart.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="navigation-buttons">
+
+                <button class="secondary-btn" onclick="showPage('memories')">
+
+                    ← Previous
+
+                </button>
+
+
+                <button class="main-btn" onclick="showPage('surprise')">
+
+                    Next →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 5 — SURPRISE
+    ====================================== -->
+
+    <section id="surprise" class="page">
+
+        <div class="card">
+
+            <div class="page-icon">
+                🎁
+            </div>
+
+
+            <p class="small-title">
+                ONE LAST SURPRISE
+            </p>
+
+
+            <h1>
+                There Is Something For You...
+            </h1>
+
+
+            <p class="subtitle">
+
+                But first, you have to open the gift. 👀
+
+            </p>
+
+
+            <div class="gift-container" onclick="openGift()">
+
+                <div id="gift" class="gift">
+
+                    🎁
+
+                </div>
+
+            </div>
+
+
+            <button class="main-btn" onclick="openGift()">
+
+                Open The Gift 🎁
+
+            </button>
+
+
+            <div id="gift-message" class="hidden-message">
+
+                <h2>
+                    🎉 SURPRISE! 🎉
+                </h2>
+
+
+                <p>
+
+                    Your real gift is a year full of
+                    happiness, success, love, peace,
+                    and unforgettable memories. ❤️
+
+                </p>
+
+
+                <p>
+
+                    May every new day give you another
+                    reason to smile. ✨
+
+                </p>
+
+            </div>
+
+
+            <div class="navigation-buttons">
+
+                <button class="secondary-btn" onclick="showPage('special')">
+
+                    ← Previous
+
+                </button>
+
+
+                <button class="main-btn" onclick="showPage('finale')">
+
+                    Final Page →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 6 — FINALE
+    ====================================== -->
+
+    <section id="finale" class="page">
+
+        <div class="hero-content">
+
+            <div class="big-emoji">
+                🎂
+            </div>
+
+
+            <p class="small-title">
+                THE FINAL WISH
+            </p>
+
+
+            <h1>
+                Happy Birthday!
+            </h1>
+
+
+            <h2>
+                Dear <span>Friend</span> ❤️
+            </h2>
+
+
+            <div class="final-wish">
+
+                <p>
+
+                    May your life always be filled with
+                    happiness, love, success and
+                    beautiful people.
+
+                </p>
+
+
+                <p>
+
+                    May all your dreams become reality
+                    and may this year be the beginning
+                    of something truly wonderful.
+
+                </p>
+
+            </div>
+
+
+            <div class="birthday-cake">
+
+                🕯️ 🕯️ 🕯️
+
+                <br>
+
+                🎂
+
+            </div>
+
+
+            <button class="main-btn" onclick="finalConfetti()">
+
+                🎉 Celebrate Again!
+
+            </button>
+
+
+            <br><br>
+
+
+            <button class="secondary-btn" onclick="showPage('home')">
+
+                ↻ Start Again
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
