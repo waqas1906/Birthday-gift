@@ -3,7 +3,7 @@
    ===================================================== */
 const CONFIG = {
   // Password: digits plus * and # are allowed. Example: "1402" or "14*2"
-  password: "7867",
+  password: "2006",
 
   // Photos: put your images inside the /photos folder and list them here.
   // If a file is missing, a cute pink placeholder is shown instead.
